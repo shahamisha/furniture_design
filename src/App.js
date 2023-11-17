@@ -152,30 +152,30 @@ return(
 
     {/* Category Section */}
     <div className=" w-[1223px] h-[180px] justify-end items-start gap-6 inline-flex">
-    <div className="w-[400px] h-[180px] relative bg-gray-200 bg-opacity-50 rounded-[20px] flex-col justify-start items-start flex">
-        <img className="w-[211px] h-[211px]" src="https://via.placeholder.com/211x211" />
-        <div className="flex-col justify-center items-center gap-3 inline-flex">
-            <div className="text-neutral-900 text-2xl font-medium font-['Rubik'] leading-loose">Dining Tables</div>
+    <div className=" w-[400px] h-[180px] relative bg-gray-200 bg-opacity-50 rounded-[20px] flex-col justify-start items-start inline-flex">
+        <img className="object-contain w-[211px] h-[211px] ml-[182px] absolute" src= {image1} />
+        <div className="w-[154px] h-[84px] mt-[48px] ml-[36px] flex-col justify-center items-center  gap-3 inline-flex ">
+            <div className="text-neutral-900 text-2xl font-medium font-['Rubik'] leading-loose ">Dining Tables</div>
             <div className="px-4 py-2 bg-white rounded-[20px] justify-start items-start gap-2 inline-flex">
                 <div className="text-black text-sm font-semibold font-['Inter'] leading-normal tracking-tight">See More</div>
             </div>
         </div>
     </div>
     <div className="w-[400px] h-[180px] relative bg-gray-200 bg-opacity-50 rounded-[20px] flex-col justify-start items-start flex">
-        <img className="w-[211px] h-[211px]" src="https://via.placeholder.com/211x211" />
-        <div className="flex-col justify-center items-center gap-3 inline-flex">
+        <img className="w-[211px] h-[211px] ml-[182px] absolute" src= {image2} />
+        <div class="w-[99px] h-[84px] mt-[48px] ml-[36px] flex-col justify-center items-center gap-3 inline-flex">
             <div className="text-neutral-900 text-2xl font-medium font-['Rubik'] leading-loose">Chairs</div>
             <div className="px-4 py-2 bg-white rounded-[20px] justify-start items-start gap-2 inline-flex">
                 <div className="text-black text-sm font-semibold font-['Inter'] leading-normal tracking-tight">See More</div>
             </div>
         </div>
     </div>
-    <div classNameName="w-[400px] h-[180px] relative bg-gray-200 bg-opacity-50 rounded-[20px] flex-col justify-start items-start flex">
-        <img classNameName="w-[211px] h-[211px]" src="https://via.placeholder.com/211x211" />
-        <div classNameName="flex-col justify-center items-center gap-3 inline-flex">
-            <div classNameName="text-neutral-900 text-2xl font-medium font-['Rubik'] leading-loose">Office Desks</div>
-            <div classNameName="px-4 py-2 bg-white rounded-[20px] justify-start items-start gap-2 inline-flex">
-                <div classNameName="text-black text-sm font-semibold font-['Inter'] leading-normal tracking-tight">See More</div>
+    <div className="w-[400px] h-[180px] relative bg-gray-200 bg-opacity-50 rounded-[20px] flex-col justify-start items-start flex">
+        <img className="w-[211px] h-[211px] ml-[182px] absolute" src= {image3} />
+        <div className="flex-col mt-[48px] ml-[36px] justify-center items-center gap-3 inline-flex">
+            <div className="text-neutral-900 text-2xl font-medium font-['Rubik'] leading-loose">Office Desks</div>
+            <div className="px-4 py-2 bg-white rounded-[20px] justify-start items-start gap-2 inline-flex">
+                <div className="text-black text-sm font-semibold font-['Inter'] leading-normal tracking-tight">See More</div>
             </div>
         </div>
     </div>
