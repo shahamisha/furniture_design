@@ -34,11 +34,21 @@ import image6 from './images/image6.png'
 import Ellipse2 from './images/Ellipse2.png'
 import Frame2 from './images/Frame2.png'
 import Group2 from './images/Group2.png'
+import Group3 from './images/Group3.png'
+import hammer from './images/hammer.png'
+import activity from './images/activity.png'
+import command from './images/command.png'
+import Frame3 from './images/Frame3.png'
+import Frame4 from './images/Frame4.png'
+import Frame5 from './images/Frame5.png'
+import Frame6 from './images/Frame6.png'
+import Frame7 from './images/Frame7.png'
+import Frame8 from './images/Frame8.png'
 
 const App = () => {
 return(
     <>
-  <div class="bg-orange-500 w-[1500px] h-[7748px] py-6 bg-white flex-col justify-start items-center gap-[60px] inline-flex" >
+  <div class="w-[1500px] h-[7748px] py-6 bg-white flex-col justify-start items-center gap-[60px] inline-flex" >
    {/* hero section */}
    <div class=" w-[1466px] h-[848px] px-[55px] pb-[54px] flex-col justify-start items-center gap-2.5 inline-flex">
     <div class="w-[1356px] h-[100px] relative">
@@ -503,7 +513,7 @@ return(
 </div>
 
 {/* Frame2 section */}
-<div class="w-[1320px] h-[740px] relative">
+<div class="bg-blue-500 w-[1320px] h-[740px] relative">
     <div class="w-[695.12px] h-[561.69px] left-[23px] top-[64px] absolute">
         <div class="origin-top-left rotate-[-15deg] w-[40.64px] h-[40.64px] left-[55.88px] top-[299.92px] absolute">
             <div class="w-[40.64px] h-[40.64px] left-0 top-0 absolute origin-top-left rotate-[-15deg] bg-orange-500 rounded-[10.16px]">
@@ -533,7 +543,7 @@ return(
             <div class="w-[306.84px] h-[69.09px] left-0 top-0 absolute bg-white rounded-[10.16px] shadow"></div>
             <div class="w-[263.62px] h-[24.38px] left-[25.40px] top-[22.35px] absolute">
                 <div class="left-[39.62px] top-[1.02px] absolute text-stone-900 text-lg font-normal font-['Inter']">We guarantee your comfort</div>
-                <div class="w-[24.38px] h-[24.38px] left-0 top-0 absolute flex-col justify-start items-start inline-flex">
+                <div class="w-[24.38px] h-[24.38px] relative flex-col justify-start items-start inline-flex">
                     <img class="w-[22.01px] h-[22.01px]" src= {circle} />
                 </div>
             </div>
@@ -564,6 +574,156 @@ return(
         </div>
     </div>
 </div>
+
+{/* Frame3 section */}
+<div class="w-[1433px] h-[541px] relative">
+ <div class="w-[1433px] h-[541px] left-0 top-0 absolute bg-black"></div>
+<div class="w-[506.53px] h-[411px] left-[797.11px] top-[60px] absolute">
+<div class="w-[506.53px] h-[137px] left-0 top-0 absolute">
+<div class="w-[425.92px] left-[80.61px] top-[47px] absolute text-white text-lg font-medium font-['Inter'] leading-[30px]">Our furniture is meticulously handcrafted to stand the test of time, ensuring it can be enjoyed for generations to come.</div>
+<div class="w-[59.71px] h-[60px] left-0 top-0 absolute shadow"></div>
+<div class="w-[51px] h-[30px] left-[8.39px] top-[15px] absolute">
+<div class="w-[37.35px] h-[22.40px] left-[7px] top-[4px] absolute">
+    <img src= {activity} />
+</div>
+</div>
+<div class="w-[368px] left-[80.39px] top-[3px] absolute text-white text-[28px] font-bold font-['Inter']">Quality Craftsmanship</div>
+</div>
+<div class="w-[483.13px] h-[107px] left-[13.39px] top-[167px] absolute">
+<div class="w-[417.14px] left-[65.99px] top-[47px] absolute text-white text-lg font-medium font-['Inter'] leading-[30px]">Discover a wide variety of styles and options to suit your unique preferences and needs.</div>
+<div class="w-[58.48px] h-[60px] left-[0.02px] top-0 absolute shadow"></div>
+<div class="w-[35.89px] h-9 left-0 top-[7px] absolute">
+    <img src= {hammer} />
+</div>
+<div class="w-[270.31px] left-[65.78px] top-[3px] absolute text-white text-[28px] font-bold font-['Inter']">Extensive Selection</div>
+</div>
+<div class="w-[506.53px] h-[107px] left-0 top-[304px] absolute">
+<div class="w-[425.92px] left-[80.61px] top-[47px] absolute text-white text-lg font-medium font-['Inter'] leading-[30px]">Quiuckly navigate you anda engage with your adience</div>
+<div class="w-[59.71px] h-[60px] left-0 top-0 absolute shadow"></div>
+<div class="w-[41px] h-[30px] left-[3.39px] top-[15px] absolute">
+<div class="w-[33.45px] h-[19px] left-[5px] top-[6px] absolute">
+    <img src= {command} />
+</div>
+</div>
+<div class="w-[418px] left-[81.39px] top-[3px] absolute text-white text-[28px] font-bold font-['Inter']">Dedicated Customer Support</div>
+</div>
+</div>
+<div class="w-[641.24px] h-[421px] left-[129px] top-[60px] absolute">
+<div class="w-[640.87px] left-[0.37px] top-[152px] absolute text-white text-base font-medium font-['Inter'] leading-[30px]">, we take pride in our unwavering commitment to quality and customer satisfaction. With a track record of excellence, we provide you with the finest furniture and a service you can trust.</div>
+<div class="w-[518px] left-[0.50px] top-0 absolute text-white text-[50px] font-semibold font-['Inter']">Our Dedication to Your Satisfaction</div>
+<div class="w-[141.68px] h-[106px] left-0 top-[315px] absolute">
+<div class="w-[141.31px] h-[26px] left-[0.37px] top-0 absolute">
+    <img src= {Group3} />
+</div>
+<div class="w-[237px] h-[62px] left-0 top-[44px] absolute">
+<h2 class="w-[122px] h-[22px] text-white text-lg font-bold font-['Inter']">4.9 / 5 rating</h2></div>
+<h3 className="w-[94.54px] left-[0.37px] top-[80px] absolute text-white text-lg font-bold font-['Inter']">Qualitity</h3>
+ 
+</div>
+<div className="w-[237.21px] h-[106px] left-[221.29px] top-[315px] absolute">
+<div className="w-[141.31px] h-[26px] left-0 top-0 absolute">
+    <img src= {Group3} />
+</div>
+<div className="w-[237.21px] h-[62px] left-0 top-[44px] absolute">
+<h2 className="w-[111.46px] left-0 top-0 absolute text-white text-lg font-bold font-['Inter']">4.8 / 5 rating</h2>
+<h3 className="w-[237px] left-[0.21px] top-[40px] absolute text-white text-lg font-bold font-['Inter']">Customer Satisfaction</h3>
+</div>
+</div>
+</div> 
+</div>
+
+{/* Gallery section */}
+<div class=" w-[1248px] h-[905px] flex-col justify-start items-center gap-16 inline-flex">
+    <div class=" flex-col justify-start items-center gap-[15px] flex">
+        <div class="h-[45px] px-6 py-1 bg-neutral-100 rounded-2xl justify-center items-center gap-2.5 inline-flex">
+            <h2 class="text-center text-orange-600 text-lg font-medium font-['Rubik'] leading-relaxed">Check Our Collection</h2>
+        </div>
+        <h1 class="text-center text-neutral-900 text-[46px] font-medium font-['Rubik'] leading-[56px]">Our Furniture Gallery</h1>
+        <h2 class="w-[451px] text-center text-neutral-600 text-lg font-normal font-['Open Sans'] leading-relaxed">Explore Our Gallery of Inspiring Designs</h2>
+    </div>
+    <div class="flex-col justify-start items-start gap-6 flex">
+        <div class="justify-start items-start gap-6 inline-flex">
+            {/* <div class=" bg-red-500 w-[330px] h-[330px] pr-[415px] justify-start items-center flex">
+                <div class="w-6 h-[389px]"></div>
+            </div> */}
+            <img class="w-[330px] h-[330px] relative" src= {Frame3} />
+            <img class="w-[330px] h-[330px] relative" src= {Frame4} />
+            <div class="bg-zinc-100 justify-start items-center flex">
+                <img class="w-[550px] h-[330px]" src= {Frame5} />
+            </div>
+        </div>
+        <div class="justify-start items-start gap-6 inline-flex">
+            <div class="w-[540px] h-[330px] bg-zinc-100 justify-center items-center flex">
+                <img class="w-[558px] h-[323px]" src= {Frame6} />
+            </div>
+            <div class="bg-zinc-100 justify-start items-center flex">
+                <img class="w-[342px] h-[323px]" src= {Frame7} />
+            </div>
+            <div class="w-[330px] h-[330px] px-2 pt-1 pb-[3px] bg-zinc-100 justify-center items-center flex">
+                <img class="w-[314px] h-[323px]" src= {Frame8} />
+            </div>
+        </div>
+    </div>
+</div>
+
+{/* Testimonial 
+<div class="w-[1439px] h-[798px] py-[66px] bg-black bg-opacity-5 flex-col justify-start items-center gap-16 inline-flex">
+    <div class="flex-col justify-start items-center gap-[15px] flex">
+        <div class="h-[45px] px-6 py-1 bg-gray-200 rounded-2xl justify-center items-center gap-2.5 inline-flex">
+            <div class="text-center text-orange-600 text-lg font-medium font-['Rubik'] leading-relaxed">Testimonial Section</div>
+        </div>
+        <div class="text-center text-neutral-900 text-[46px] font-medium font-['Rubik'] leading-[56px]">What Our Customer Say</div>
+        <div class="w-[451px] text-center text-neutral-600 text-lg font-normal font-['Open Sans'] leading-relaxed">Discover the Stories and Experiences of Our Delighted Customers</div>
+    </div>
+    <div class="justify-center items-center gap-6 inline-flex">
+        <div class="p-[42px] bg-white flex-col justify-start items-start gap-7 inline-flex">
+            <div class="w-[539px] text-neutral-600 text-lg font-normal font-['Open Sans'] leading-7">I am genuinely impressed with the quality of the recliner chair I bought. The comfort it provides is beyond compare, and the design perfectly complements our living room. What sets apart is not just their exceptional products but also their commitment to customer satisfaction. They went the extra mile to ensure I was completely satisfied with my purchase, which is a rarity in today's market.</div>
+            <div class="relative">
+                <div class="w-[166px] h-11 left-0 top-0 absolute justify-center items-center gap-3.5 inline-flex">
+                    <div class="w-11 h-11 relative">
+                        <div class="w-11 h-11 left-0 top-0 absolute bg-zinc-300 rounded-full"></div>
+                        <img class="w-[49px] h-[51px] left-[-1px] top-[-1px] absolute" src="https://via.placeholder.com/49x51" />
+                    </div>
+                    <div class="flex-col justify-start items-start gap-3.5 inline-flex">
+                        <div class="text-center text-neutral-900 text-lg font-normal font-['Rubik'] leading-normal">Johny Assloy</div>
+                    </div>
+                </div>
+                <div class="w-[131px] h-[23px] left-[408px] top-[11px] absolute justify-start items-start gap-1 inline-flex"></div>
+            </div>
+        </div>
+        <div class="p-[42px] bg-white flex-col justify-start items-start gap-7 inline-flex">
+            <div class="w-[539px] text-neutral-600 text-lg font-normal font-['Open Sans'] leading-7">I recently purchased a beautiful dining table and it has completely transformed our dining area. The craftsmanship and attention to detail are truly remarkable. The table is not only a functional piece of furniture but also a work of art that our family and guests admire. The process from selection to delivery was smooth, and the customer support team was incredibly helpful throughout.</div>
+            <div class="relative">
+                <div class="w-[188px] h-11 left-0 top-0 absolute justify-center items-center gap-3.5 inline-flex">
+                    <div class="w-11 h-11 relative">
+                        <div class="w-11 h-11 left-0 top-0 absolute bg-zinc-300 rounded-full"></div>
+                        <img class="w-[49px] h-[51px] left-[-1px] top-[-1px] absolute" src="https://via.placeholder.com/49x51" />
+                    </div>
+                    
+                    <div class="flex-col justify-start items-start gap-3.5 inline-flex">
+                        <div class="text-center text-neutral-900 text-lg font-normal font-['Rubik'] leading-normal">Michael Roberts</div>
+                    </div>
+                </div>
+                <div class="w-[131px] h-[23px] left-[408px] top-[11px] absolute justify-start items-start gap-1 inline-flex"></div>
+            </div>
+        </div>
+        <div class="p-[42px] bg-white flex-col justify-start items-start gap-7 inline-flex">
+            <div class="w-[539px] text-neutral-600 text-lg font-normal font-['Open Sans'] leading-7">My experience has been consistently outstanding. I've furnished my entire home with their products, and every piece has exceeded my expectations. From the bedroom to the home office,  offers a wide range of stylish and well-crafted furniture. What truly sets them apart is their dedicated customer support.</div>
+            <div class="relative">
+                <div class="w-[161px] h-11 left-0 top-0 absolute justify-center items-center gap-3.5 inline-flex">
+                    <div class="w-11 h-11 relative">
+                        <div class="w-11 h-11 left-0 top-0 absolute bg-zinc-300 rounded-full"></div>
+                        <img class="w-[49px] h-[51px] left-[-1px] top-[-1px] absolute" src="https://via.placeholder.com/49x51" />
+                    </div>
+                    <div class="flex-col justify-start items-start gap-3.5 inline-flex">
+                        <div class="text-center text-neutral-900 text-lg font-normal font-['Rubik'] leading-normal">Marta Brown</div>
+                    </div>
+                </div>
+                <div class="w-[131px] h-[23px] left-[408px] top-[11px] absolute justify-start items-start gap-1 inline-flex"></div>
+            </div>
+        </div>
+    </div>
+</div>*/}
 
 
 
