@@ -26,7 +26,7 @@ const Footer = () => {
         
         <div class="w-[1440px] h-[439px] relative bg-white">
            
-         <img class="left-[96px] top-[80px] w-[153px] h-[48px] " src= {LOGO} /> 
+         <img class="left-[96px] top-[80px] w-[153px] h-[48px] absolute" src= {LOGO} /> 
             <div class="left-[472px] top-[80px] absolute flex-col justify-start items-start gap-4 inline-flex">
                 <div class="text-black text-lg font-semibold font-['Rubik'] leading-relaxed">Category</div>
                 <div class="flex-col justify-center items-start gap-2.5 flex">
@@ -63,6 +63,7 @@ const Footer = () => {
                     <div class="text-stone-700 text-base font-normal font-['Open Sans'] leading-normal">Youtube</div>
                 </div>
             </div>
+           
             <div class="w-[219px] left-[96px] top-[156px] absolute text-stone-700 text-lg font-normal font-['Open Sans'] leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
             <div class="left-[96px] top-[337px] absolute text-stone-700 text-sm font-normal font-['Open Sans'] leading-snug">© 2023 by Logo Furniture. All rights reserved.</div>
             <div class="w-[1248px] h-[0px] left-[96px] top-[313px] absolute border border-black">
@@ -71,5 +72,6 @@ const Footer = () => {
     </div>
     );
 }
+
 
 export default Footer;
