@@ -43,7 +43,6 @@ const Testimonial = () => {
                     <div class="relative">
                         <div class="w-[188px] h-11 left-0 top-0 absolute justify-center items-center gap-3.5 inline-flex">
                             <div class="w-11 h-11 relative">
-                                {/* <div class="bg-red-500 w-11 h-11 left-0 top-0 absolute bg-zinc-300 rounded-full"></div> */}
                                 <img class="w-[49px] h-[51px] left-[-1px] top-[-1px] absolute rounded-full" src= {image7} />
                             </div>
                             

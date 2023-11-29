@@ -5,7 +5,7 @@ import image6 from './images/image6.png'
 
 const Category2 = () => {
     return (
-    <div class="w-[1223px] h-[180px] justify-start items-start gap-6 inline-flex">
+    <div class="w-[1223px] h-[180px] justify-start items-start gap-6 inline-flex overflow-hidden ">
     <div class="w-[400px] h-[180px] relative bg-gray-200 bg-opacity-50 rounded-[20px]">
         <img class="w-[211px] h-[211px] left-[182px] top-[2px] absolute" src= {image4} />
         <div class="left-[36px] top-[48px] absolute flex-col justify-center items-center gap-3 inline-flex">

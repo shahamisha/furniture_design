@@ -12,56 +12,17 @@ import Footer from './components/Footer'
 
 function App() {
         return (
-        <div class="[1500px] h-[7748px] py-6 bg-white flex-col justify-start items-center gap-[60px] inline-flex" >
-           {/* hero section */}
-            <div>
-                <Hero />
-            </div>
-
-            {/* Category Section */}
-            <div>
-                <Category />
-            </div>
-
-             {/* Product Section */}
-             <div>
-                <Product />
-            </div>
-            
-            {/* Frame section */}
-            <div>
-                <Frame />
-            </div>
-
-            {/* Category2 section */}
-            <div>
-                <Category2 />
-            </div>
-
-            {/* Frame2 section */}
-            <div>
-                <Frame2 />
-            </div>
-
-            {/* Frame3 section */}
-            <div>
-                <Frame3 />
-            </div>
-
-            {/* Gallery section */}
-            <div>
-                <Gallery />
-            </div>
-
-            {/* Testimonial */}
-            <div>
-                <Testimonial />
-            </div>
-
-            {/* footer secti0n */}
-            <div>
-                <Footer />
-            </div>
+        <div class="bg-blue-500 [1500px] h-[7748px] py-6 bg-white flex-col justify-start items-center gap-[60px] inline-flex" >
+            <Hero />
+            <Category />
+            <Product />
+            <Frame />
+            <Category2 />
+            <Frame2 />
+            <Frame3 />
+            <Gallery />
+            <Testimonial />
+            <Footer />
         </div>
         )
 }
