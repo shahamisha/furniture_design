@@ -14,7 +14,7 @@ import Location4 from './images/Location4.png'
 
 const Hero = () => {
     return (
-    <div class=" w-[1466px] h-[848px] px-[55px] pb-[54px] flex-col justify-start items-center gap-2.5 inline-flex">
+    <div class="w-[1466px] h-[848px] px-[55px] pb-[54px] flex-col justify-start items-center gap-2.5 inline-flex">
         <div class="w-[1356px] h-[100px] relative">
             <div class="w-[1356px] h-11 left-0 top-0 absolute">
                 <div class="w-[1356px] h-11 left-0 top-0 absolute"></div>

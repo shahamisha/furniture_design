@@ -7,7 +7,7 @@ import image8 from './images/image8.png'
 
 const Testimonial = () => {
     return (
-        <div class="w-[1439px] h-[798px] py-[66px] bg-black bg-opacity-5 flex-col justify-start items-center gap-16 inline-flex">
+        <div class=" w-[1439px] h-[798px] py-[66px] bg-black bg-opacity-5 flex-col justify-start items-center gap-16 inline-flex overflow-hidden">
             <div class="flex-col justify-start items-center gap-[15px] flex">
                 <div class="h-[45px] px-6 py-1 bg-gray-200 rounded-2xl justify-center items-center gap-2.5 inline-flex">
                     <div class="text-center text-orange-600 text-lg font-medium font-['Rubik'] leading-relaxed">Testimonial Section</div>
@@ -60,9 +60,9 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </div>
-                <div class="w-[623px] h-[363px] p-[42px] bg-white flex-col justify-start items-start gap-7 inline-flex">
+                <div class="w-[623px] h-[363px] text-clip overflow-hidden p-[42px] bg-white flex-col justify-start items-start gap-7 inline-flex">
                 <img class= "w-[55px] h-[39px] " src= {icon}/>
-                    <div class="w-[539px] text-neutral-600 text-lg font-normal font-['Open Sans'] leading-7">My experience has been consistently outstanding. I've furnished my entire home with their products, and every piece has exceeded my expectations. From the bedroom to the home office,  offers a wide range of stylish and well-crafted furniture. What truly sets them apart is their dedicated customer support.</div>
+                    <p class="w-[539px] text-neutral-600 text-lg font-normal font-['Open Sans'] leading-7">My experience has been consistently outstanding. I've furnished my entire home with their products, and every piece has exceeded my expectations. From the bedroom to the home office,  offers a wide range of stylish and well-crafted furniture. What truly sets them apart is their dedicated customer support.</p>
                     <div class="relative">
                         <div class="w-[161px] h-11 left-0 top-0 absolute justify-center items-center gap-3.5 inline-flex">
                             <div class="w-11 h-11 relative">
