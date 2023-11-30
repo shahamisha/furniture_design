@@ -7,7 +7,7 @@ import Group3 from './images/Group3.png'
 const Frame3 = () => {
     return (
         <div class="w-[1433px] h-[541px] relative">
-        <div class="w-[1433px] h-[541px] left-0 top-0 absolute bg-black"></div>
+        <div class="w-screen w-[1433px] h-[541px] left-0 top-0 absolute bg-black"></div>
             <div class="w-[506.53px] h-[411px] left-[797.11px] top-[60px] absolute">
         <div class="w-[506.53px] h-[137px] left-0 top-0 absolute">
         <div class="w-[425.92px] left-[80.61px] top-[47px] absolute text-white text-lg font-medium font-['Inter'] leading-[30px]">Our furniture is meticulously handcrafted to stand the test of time, ensuring it can be enjoyed for generations to come.</div>

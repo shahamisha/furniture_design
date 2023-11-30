@@ -14,11 +14,11 @@ import Location4 from './images/Location4.png'
 
 const Hero = () => {
     return (
-    <div class="w-[1466px] h-[848px] px-[55px] pb-[54px] flex-col justify-start items-center gap-2.5 inline-flex">
+    <div class="w-screen h-[848px] px-[55px] pb-[54px] flex-col justify-start items-center gap-2.5 inline-flex">
         <div class="w-[1356px] h-[100px] relative">
-            <div class="w-[1356px] h-11 left-0 top-0 absolute">
-                <div class="w-[1356px] h-11 left-0 top-0 absolute"></div>
-                <div class="w-[307.13px] h-5 left-[113px] top-[12.47px] absolute justify-start items-start gap-[23.47px] inline-flex">
+            <div class=" w-[1356px] h-11 left-0 top-0 absolute">
+                {/* <div class="bg-blue-400 w-[1356px] h-11 left-0 top-0 absolute"></div> */}
+                <div class=" w-[369px] h-5 left-[113px] top-[12.47px] absolute justify-start items-start gap-[23.47px] inline-flex">
                     <div class="grow shrink basis-0 self-stretch relative">
                         <div class="w-[17.60px] h-[17.60px] left-0 top-0 absolute flex-col justify-start items-start inline-flex">
                             <img src= {Call} />

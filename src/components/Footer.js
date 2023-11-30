@@ -6,12 +6,12 @@ const Footer = () => {
     return (
     <div class="w-[1440px] h-[1204px] flex-col justify-start items-start inline-flex">
         <div class="self-stretch grow shrink basis-0 relative">
-            <div class="w-[1440px] h-[492px] left-0 top-0 absolute bg-black bg-opacity-80 flex-col justify-start items-start inline-flex">
-                <img class="w-[1440px] h-[492px] relative" src= {Frame9} />
+            <div class="w-screen w-[1440px] h-[492px] left-0 top-0 absolute bg-black bg-opacity-80 flex-col justify-start items-start inline-flex">
+                <img class=" w-[1440px] h-[492px] relative" src= {Frame9} />
                 <div class="w-[311px] h-[112px] left-[948px] top-[186px] text-white text-[46px] font-medium font-['Rubik'] leading-[56px] absolute">Our Furniture Review</div>
                 <div class="w-[347px] h-[52px] left-[948px] top-[314px] text-neutral-100 text-lg font-normal font-['Open Sans'] leading-relaxed absolute">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
             </div>
-            <div class="w-[1440px] h-[273px] pl-[154px] pr-[153px] pt-[129px] pb-[60px] left-0 top-[492px] absolute bg-neutral-700 justify-center items-start gap-10 inline-flex">
+            <div class="w-screen w-[1440px] h-[273px] pl-[154px] pr-[153px] pt-[129px] pb-[60px] left-0 top-[492px] absolute bg-neutral-700 justify-center items-start gap-10 inline-flex">
                 <div class="w-[426px] text-white text-[34px] font-normal font-['Rubik'] leading-[42px]">Subscribe to get attractive offers on our products</div>
                 <div class="grow shrink basis-0 self-stretch pl-6 pr-3.5 py-3.5 bg-neutral-100 justify-end items-center gap-60 inline-flex">
                     <div class="self-stretch justify-start items-center gap-3.5 inline-flex">
@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
         </div>
         
-        <div class="w-[1440px] h-[439px] relative bg-white">
+        <div class="w-screen w-[1440px] h-[439px] relative bg-white">
            
          <img class="left-[96px] top-[80px] w-[153px] h-[48px] absolute" src= {LOGO} /> 
             <div class="left-[472px] top-[80px] absolute flex-col justify-start items-start gap-4 inline-flex">

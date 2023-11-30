@@ -12,7 +12,9 @@ import Footer from './components/Footer'
 
 function App() {
         return (
-        <div class=" w-[1500px] h-[7748px] py-6 bg-white flex-col justify-start items-center gap-[60px] inline-flex" >
+            <div class=" overflow-hidden w-full  py-6 bg-white flex-col justify-start items-center gap-[60px] inline-flex " >
+            
+        {/* <div class=" w-[1500px] h-[7748px] py-6 bg-white flex-col justify-start items-center gap-[60px] inline-flex" > */}
             <Hero />
             <Category />
             <Product />
