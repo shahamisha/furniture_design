@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
+      extend: {},
     },
     screens: {
       'tablet': '640px',
@@ -17,7 +18,7 @@ module.exports = {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    extend: {},
+    
   },
   plugins: [],
 }
